@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * The function "print_alphabet_x10" is designed to output the alphabet
- * in sequence for a total of 10 iterations.
+ * print_alphabet_x10 - prints the alphabet 10 times
  *
  * Return: void
  */

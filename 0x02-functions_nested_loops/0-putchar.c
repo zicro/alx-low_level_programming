@@ -1,8 +1,9 @@
 #include <unistd.h>
 
 /**
- * main - Outputs a new line character immediately 
- * after printing the string "_putchar".
+ * main - Entry point
+ *
+ * Description: Prints "_putchar" followed by a new line
  *
  * Return: Always 0 (Success)
  */
