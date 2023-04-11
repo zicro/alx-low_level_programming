@@ -11,7 +11,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *nbr = malloc(size);
 
-	if (size == 0 or nbr == 0)
+	if (nbr == 0 || size == 0)
 	{
 		return (0);
 	}
@@ -21,5 +21,5 @@ char *create_array(unsigned int size, char c)
 		nbr[size] = c;
 	}
 
-	return (n);
+	return (nbr);
 }
