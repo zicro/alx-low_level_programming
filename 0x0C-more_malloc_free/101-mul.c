@@ -9,8 +9,8 @@ int isNbr(char *str);
 
 /**
  * main - multiply positive numbers
- * @ac: args number
- * @av: args array
+ * @c: args number
+ * @v: args array
  * Return: 0
  */
 int main(int c, char **v)
