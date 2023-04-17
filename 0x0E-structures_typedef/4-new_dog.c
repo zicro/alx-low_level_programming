@@ -20,12 +20,13 @@ char *_strcpy(char *end, char *start)
 	return (end);
 }
 
- /**
- * _strlen - string size of the current str
- * @str: string
+/**
+ * _strlen - a function that gets a length of string
  *
- * Return: size of the string
- */
+ * @str: the string to get the length
+ *
+ * Return: length of @str
+*/
 int _strlen(char *str)
 {
 	int j;
