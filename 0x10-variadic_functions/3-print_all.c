@@ -50,7 +50,7 @@ void print_all(const char * const format, ...)
 	int k = 0, h;
 	char *sep = "";
 
-	data_prnt print[] = {
+	data_prnt lst[] = {
 		{"c", print_char},
 		{"i", print_int},
 		{"f", print_float},
@@ -62,12 +62,12 @@ void print_all(const char * const format, ...)
 	while (format && format[k])
 	{
 		h = 0;
-		while (h < 4 && format[k] != print[h].param[0])
+		while (h < 4 && format[k] != lst[h].token[0])
 			++h;
 		if (h < 4)
 		{
 			printf("%s", sep);
-			print[h].f(ap);
+			lst[h].f(ap);
 			sep = ", ";
 		}
 		++k;
