@@ -6,7 +6,7 @@
  * @separator: the item to separate with
  * @n: the args count
  * @...: the ints to be printed
- * 
+ *
  * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
