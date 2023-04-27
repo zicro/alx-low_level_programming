@@ -3,7 +3,7 @@
 
 /**
  * _strsize - the string size
- * @s: string to get it's size
+ * @ch: string to get it's size
  *
  * Return: the size of string
  */
