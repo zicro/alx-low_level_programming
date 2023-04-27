@@ -11,7 +11,7 @@ int _strsize(const char *ch)
 {
 	int count = 0;
 
-	while (s[count])
+	while (ch[count])
 		count++;
 	return (count);
 }
