@@ -9,7 +9,7 @@
 int create_file(const char *filename, char *text_content)
 {
 	int frwd, size, w_bytes;
-	
+
 	if (filename == NULL)
 		return (-1);
 
